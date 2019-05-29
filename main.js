@@ -19,5 +19,3 @@ else {
 }
 };
 
-
-console.log(typeof container)
