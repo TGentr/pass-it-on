@@ -7,15 +7,17 @@ const wiadZz = document.querySelector('#wiadomoscZ');
 wyslij.addEventListener('click', wyslijTo);
 
 function wyslijTo() {
-let content =  wiadomoscDo.value;
+let content =  wiadDo.value; //wiadomoscDo.value
 
 if(content == '') {
     alert('wpisz coś');
 }
 else {
-    wiadomoscZ.innerHTML = content;
-    wiadomoscDo.value = '';
+    wiadZz.innerHTML = content; //wiadomoscZ.innerHTML
+    
+    wiadDo.value = ''; //wiadomoscDo.value
 }
 };
 
 
+console.log(typeof container)
